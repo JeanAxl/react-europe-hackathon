@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Welcome</h1>
       {posts.map(p => (
         <h2>{p.title}</h2>
       ))}
