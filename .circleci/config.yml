@@ -1,0 +1,29 @@
+
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: npm run test
+  deploy:
+    docker:
+      - image: buildpack-deps:trusty
+    steps:
+      - checkout
+      - run:
+          name: Deploy Master
+          run: echo oui
+
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - test
+      - deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only: master
