@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "hackathon-react-2019-dev-20190525130332-authRole",
+            "UnauthRoleArn": "arn:aws:iam::881052635629:role/hackathon-react-2019-dev-20190525130332-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::881052635629:role/hackathon-react-2019-dev-20190525130332-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "hackathon-react-2019-dev-20190525130332-deployment",
+            "UnauthRoleName": "hackathon-react-2019-dev-20190525130332-unauthRole",
+            "StackName": "hackathon-react-2019-dev-20190525130332",
+            "StackId": "arn:aws:cloudformation:eu-west-1:881052635629:stack/hackathon-react-2019-dev-20190525130332/bc199990-7edc-11e9-a0b8-02f49d781af6"
+        },
+        "categories": {
+            "auth": {
+                "hackathonreact20190fae581b": {}
+            }
+        }
+    }
+}
